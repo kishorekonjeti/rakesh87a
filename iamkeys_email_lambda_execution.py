@@ -1,3 +1,8 @@
+# PCS standard.(Security policy).   More tahn 90 days password change 
+# inactive aws account in in active for more than 60 days.
+# time_difference1: 76- 90 th  mail has to sent
+# time_difference2: 90 days mail trigger account inactive
+
 import boto3
 import datetime
 from datetime import date
